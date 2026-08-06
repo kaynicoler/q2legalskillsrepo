@@ -1,0 +1,8 @@
+{
+  "name": "q2-nda-review",
+  "display_name": "Q2 NDA Review",
+  "version": "3.0.0",
+  "platform": "Claude Cowork",
+  "entrypoint": "SKILL.md",
+  "description": "Review Q2 NDAs and counterparty redlines with separate review-only, full-review, and document-redlining modes."
+}
