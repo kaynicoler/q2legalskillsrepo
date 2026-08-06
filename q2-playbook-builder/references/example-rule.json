@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Q2 Customer as Third-Party Beneficiary",
+    "type": "Rule",
+    "text": "Q2 should reject any deletion or qualification of the Q2 Customer third-party beneficiary clause. Q2 Customers (the financial institutions) do not have a separate agreement with Developer; their rights, including the right to enforce the indemnity, flow only through the third-party beneficiary clause.",
+    "fallback_1": "Accept narrowing the 3PB right to specific sections clearly tied to Q2 Customer (use of Application, indemnity, confidentiality, data) provided indemnity and security obligations remain enforceable by Q2 Customer.",
+    "fallback_2": "Accept a procedural requirement that Q2 Customer must enforce through Q2 in the first instance, provided this does not eliminate substantive rights.",
+    "fallback_3": "If counterparty absolutely refuses third-party beneficiary status, escalate to GC; do not sign without senior counsel approval.",
+    "reviewer_note": "Q2 Customers cannot be deleted from the agreement. Always retain the dedicated 'Q2 Customer as Third-Party Beneficiary' section verbatim. Q2 has consistently messaged this is 'a critical component of deal structure' and 'a commitment Q2 makes to the customers.'",
+    "preferred_language_1": "Developer hereby agrees that Q2 Customer is a third-party beneficiary of this Agreement to the extent referenced herein and shall have the right, but not the obligation, to enforce this Agreement against Developer as a third-party beneficiary hereof.",
+    "preferred_language_2": "",
+    "preferred_language_3": "",
+    "suggested_comment_1": "Q2 Customers (Q2's financial institution customers) require third-party beneficiary status because they have no direct agreement with Developer. Please reinstate.",
+    "suggested_comment_2": "Q2 cannot remove third-party beneficiary status — this is a commitment Q2 has made to its customer base and a foundational element of the marketplace structure.",
+    "suggested_comment_3": "If Q2 Customer third-party beneficiary status is removed, Q2's customers would have no enforceable rights under this agreement. This is a non-starter — Q2 will need to bring this to GC for review.",
+    "recommendation_prompt": "Detect whether the agreement contains a 'Q2 Customer as Third-Party Beneficiary' provision and whether any redline modifies, deletes, or qualifies it. Flag any narrowing of the enforcement right or restriction on which sections Q2 Customer can enforce.",
+    "low_risk": "Clause is included verbatim with full enforcement rights for Q2 Customer.",
+    "medium_risk": "Clause is narrowed (e.g., enforcement limited to certain sections) but indemnity and security obligations remain enforceable by Q2 Customer.",
+    "high_risk": "Clause is deleted entirely, or Q2 Customer's enforcement rights are eliminated."
+  }
+]
