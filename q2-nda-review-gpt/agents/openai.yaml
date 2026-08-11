@@ -1,0 +1,13 @@
+interface:
+  display_name: Q2 NDA Review
+  short_description: Review and surgically redline NDAs to Q2 standards
+  default_prompt: Review the attached NDA for Q2 and provide targeted redlines.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
